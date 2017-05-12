@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp\AndroidStudioProjects\QBank\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="C:\Users\hp\AndroidStudioProjects\QBank\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.3.0_3e806450d0dde87c85b93d273010be1a8b5a3161.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp\AndroidStudioProjects\QBank\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="C:\Users\hp\AndroidStudioProjects\QBank\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.3.0_e8fb5effc548b5d809848821c3bb8eb28d5c8cfd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp\.gradle\caches\modules-2\files-2.1\com.j256.ormlite\ormlite-android\5.0\1f065373aeef355dd9e2fd9854efd5ed4d54f6d\ormlite-android-5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="01f065373aeef355dd9e2fd9854efd5ed4d54f6d">
+        <dex dex="C:\Users\hp\AndroidStudioProjects\QBank\app\build\intermediates\pre-dexed\debug\ormlite-android-5.0_83e03ddb7df0ff2e4cb1ae2eff7805dc82cf9529.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp\AndroidStudioProjects\QBank\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0e7c55c63593fa54f57eaf78482b58447738a89f">
+        <dex dex="C:\Users\hp\AndroidStudioProjects\QBank\app\build\intermediates\pre-dexed\debug\instant-run_2ad6dca0df00adc49c400aae1b186019b8d98620.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp\AndroidStudioProjects\QBank\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="C:\Users\hp\AndroidStudioProjects\QBank\app\build\intermediates\pre-dexed\debug\internal_impl-23.3.0_18c16d0490be39ad6aa68efb31c49b181c94590f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp\AndroidStudioProjects\QBank\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e77ce3a24c3dee1dbbc6c1fd4f2cee82169f04c7">
+        <dex dex="C:\Users\hp\AndroidStudioProjects\QBank\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_c621ce7922a06478ba4bfc56ab068bd0e5d9538c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp\AndroidStudioProjects\QBank\app\build\intermediates\exploded-aar\com.android.support\design\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="C:\Users\hp\AndroidStudioProjects\QBank\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.3.0_01abd53895aa8b3e984a804f1d98e6e7317a63f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="C:\Users\hp\AndroidStudioProjects\QBank\app\build\intermediates\pre-dexed\debug\support-annotations-23.3.0_c71aef5c9ab0de7ce183a8540e557fdbb4ab7278.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp\AndroidStudioProjects\QBank\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="C:\Users\hp\AndroidStudioProjects\QBank\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.3.0_3adfccbe0437a9f1ce0af3d921913f4d69191153.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp\AndroidStudioProjects\QBank\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="C:\Users\hp\AndroidStudioProjects\QBank\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.3.0_f70248d4ad009c6190aa8e0f133642f225f4c7b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp\.gradle\caches\modules-2\files-2.1\eu.the4thfloor.volley\com.android.volley\2015.05.28\b0b08cc0ac897e596abe6b263a9507cba875b705\com.android.volley-2015.05.28.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b0b08cc0ac897e596abe6b263a9507cba875b705">
+        <dex dex="C:\Users\hp\AndroidStudioProjects\QBank\app\build\intermediates\pre-dexed\debug\com.android.volley-2015.05.28_8e4a36d5ce22e61942e999201cf6bf5acf46c774.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp\AndroidStudioProjects\QBank\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="C:\Users\hp\AndroidStudioProjects\QBank\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.3.0_0fb1e0af673f53af3555715a4327c2beda55ff0c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hp\.gradle\caches\modules-2\files-2.1\com.j256.ormlite\ormlite-core\5.0\3382b8260646dd334a1b9c1b3d412fcb73d8b21\ormlite-core-5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="03382b8260646dd334a1b9c1b3d412fcb73d8b21">
+        <dex dex="C:\Users\hp\AndroidStudioProjects\QBank\app\build\intermediates\pre-dexed\debug\ormlite-core-5.0_87cba59820908432a9dba037ba9af1ba8b6222ed.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="5sp"
+    android:animateLayoutChanges="true"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5sp"
+        android:background="@drawable/card_background"
+        android:animateLayoutChanges="true"
+        android:weightSum="1">
+
+        <Button
+            android:text="New Section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_section_header"
+            android:textColor="@color/card_white"
+            android:background="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="normal|bold" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/panel_question_creator"
+            android:layout_weight="0.69">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapSentences|textAutoCorrect|textAutoComplete|textPersonName"
+                android:ems="10"
+                android:id="@+id/txt_section_title"
+                android:hint="Section Title" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textPersonName"
+                android:ems="10"
+                android:id="@+id/txt_section_description"
+                android:hint="Description" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20sp"
+            android:animateLayoutChanges="true"
+            android:id="@+id/view_questions_list"></LinearLayout>
+
+        <Button
+            android:text="Add Question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_add_question"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/card_white"
+            android:textStyle="normal|bold" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="5sp"
+    android:animateLayoutChanges="true"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:background="@drawable/question_background">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textPersonName"
+                android:ems="10"
+                android:id="@+id/txt_question_title"
+                android:hint="Question" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/question_type_spinner"
+                android:spinnerMode="dialog" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textPersonName"
+                android:ems="10"
+                android:id="@+id/txt_question_description"
+                android:hint="Description" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/card_background"
+                android:id="@+id/tags_list"></LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20sp"
+                android:paddingRight="20sp">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/answer_creator">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:animateLayoutChanges="true"
+                        android:background="@drawable/card_background"
+                        android:id="@+id/answers_list"></LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textPersonName"
+                        android:ems="10"
+                        android:id="@+id/txt_answer_create"
+                        android:layout_weight="1"
+                        android:hint="Answer" />
+
+                    <Button
+                        android:text="+"
+                        android:layout_width="51dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/btn_add_answer"
+                        style="@style/Widget.Design.FloatingActionButton"
+                        android:textColor="@color/card_white"
+                        android:textStyle="normal|bold"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

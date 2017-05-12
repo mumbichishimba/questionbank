@@ -1,0 +1,187 @@
+# --table-start--
+dataClass=com.mumbi.qbank.entity.Assessment
+tableName=assessment_tbl
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=_id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=name
+columnName=_name
+# --field-end--
+# --field-start--
+fieldName=description
+columnName=_description
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+
+#################################
+# --table-start--
+dataClass=com.mumbi.qbank.entity.Answer
+tableName=answer_tbl
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=_id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=answer
+columnName=_answer
+# --field-end--
+# --field-start--
+fieldName=isCorrect
+columnName=_iscorrect
+# --field-end--
+# --field-start--
+fieldName=number
+columnName=_number
+# --field-end--
+# --field-start--
+fieldName=questionId
+columnName=_questionid
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+
+#################################
+# --table-start--
+dataClass=com.mumbi.qbank.entity.Educator
+tableName=educator_tbl
+# --table-fields-start--
+# --field-start--
+fieldName=userId
+columnName=_userid
+# --field-end--
+# --field-start--
+fieldName=ssn
+columnName=_ssn
+# --field-end--
+# --field-start--
+fieldName=position
+columnName=_position
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+
+#################################
+# --table-start--
+dataClass=com.mumbi.qbank.entity.Question
+tableName=question_tbl
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=_id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=question
+columnName=_question
+# --field-end--
+# --field-start--
+fieldName=questionType
+columnName=_questiontype
+# --field-end--
+# --field-start--
+fieldName=description
+columnName=_description
+# --field-end--
+# --field-start--
+fieldName=number
+columnName=_number
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+
+#################################
+# --table-start--
+dataClass=com.mumbi.qbank.entity.Section
+tableName=section_tbl
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=_id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=title
+columnName=_title
+# --field-end--
+# --field-start--
+fieldName=description
+columnName=_description
+# --field-end--
+# --field-start--
+fieldName=assessmentId
+columnName=_assessmentid
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+
+#################################
+# --table-start--
+dataClass=com.mumbi.qbank.entity.Student
+tableName=student_tbl
+# --table-fields-start--
+# --field-start--
+fieldName=userId
+columnName=_userid
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=grade
+columnName=_grade
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+
+#################################
+# --table-start--
+dataClass=com.mumbi.qbank.entity.User
+tableName=user_tbl
+# --table-fields-start--
+# --field-start--
+fieldName=id
+columnName=_id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=fname
+columnName=_fname
+# --field-end--
+# --field-start--
+fieldName=lname
+columnName=_lname
+# --field-end--
+# --field-start--
+fieldName=gender
+columnName=_gender
+# --field-end--
+# --field-start--
+fieldName=username
+columnName=_uname
+# --field-end--
+# --field-start--
+fieldName=password
+columnName=_password
+# --field-end--
+# --field-start--
+fieldName=role
+columnName=_role
+# --field-end--
+# --field-start--
+fieldName=institution
+columnName=_institution
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

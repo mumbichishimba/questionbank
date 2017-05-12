@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Online">
+            <menu>
+                <item
+                    android:id="@+id/online_assessments"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="Online Question Lists" />
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Local">
+        <menu>
+            <item
+                android:id="@+id/add_question"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Add Question" />
+            <item
+                android:id="@+id/add_question_list"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Add Question List" />
+            <item
+                android:id="@+id/local_question_list"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Local Question Lists" />
+            <item
+                android:id="@+id/view_all_questions"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Load All Questions" />
+        </menu>
+    </item>
+
+</menu>
